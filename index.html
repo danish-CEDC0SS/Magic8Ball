@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Fortune</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid a1 justify-content-center">
+        <div class="container-fluid a2">
+            <h1 style="color: burlywood; font-size: 350%;"> Magic 8 Ball</h1>
+            <img src="img/ball2.png" alt="" class="a4">
+            <div id="end1">
+            <h3><i class="a5">Enter your name if you want!!</i></h3>
+            <input type="text" placeholder="Name" id="name" class="a3" value="">
+            <input type="button" placeholder="Enter" class="btn btn-outline-danger a5" value="Enter" onclick="fun1()"></div>
+            <div id="start1">
+                <h3 class="a5">Hello!! <span id="q1"></span></h3>
+                <h4 style="color: rgb(245, 89, 89);">Shall we start??</h4>
+                <label>YES:</label>
+                <input type="radio" name="abc" value="Yes" id="r1" onclick="fun2()">
+                <label>NO:</label>
+                <input type="radio" name="abc" value="NO" id="r2" onclick="fun3()">
+            </div>
+            <div id="s2">
+                <select id="qwe">
+                    <option value="1">When will I get married?</option>
+                    <option value="2">Do I need to change my diet?</option>
+                    <option value="3">Will I get promoted?</option>
+                    <option value="4">How will my Life be in 5 Years?</option>
+                    <option value="5">Will I be able to Achieve my Ultimate Goal?</option>
+                    <option value="6">WIll my current LoveLife succeed?</option>
+                    <option value="7">When Will my current problems go away?</option>
+                </select>
+                <input type="button" value="Ask" class="btn btn-outline-danger a5" onclick="fun4()">
+                <p id="s4"></p>
+            </div>
+            <div id="s3" class="a5">Thank you!!</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
