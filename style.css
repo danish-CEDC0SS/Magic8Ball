@@ -58,4 +58,8 @@ h2{
     margin-top: 20px;
     color: darkkhaki;
     font-size: 200%;
+    display: none;
+}
+#hide{
+    display: none;
 }
