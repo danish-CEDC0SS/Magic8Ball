@@ -79,3 +79,12 @@ function fun4(){
 
 
 }
+
+
+
+function fun5(){
+    x= document.getElementById("s2");
+    x.style.display="none";
+    x= document.getElementById("s3");
+    x.style.display="block";
+}
