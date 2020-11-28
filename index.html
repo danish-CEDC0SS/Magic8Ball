@@ -18,7 +18,7 @@
             <div id="end1">
             <h3><i class="a5">Enter your name if you want!!</i></h3>
             <input type="text" placeholder="Name" id="name" class="a3" value=""><br><br>
-            <input type="button" placeholder="Enter" class="btn btn-outline-danger a5" value="Enter" onclick="fun1()"></div>
+            <input type="button" class="btn btn-outline-danger a5" value="Enter" onclick="fun1()"></div>
             <div id="start1">
                 <h3 class="a5">Hello!! <span id="q1"></span></h3>
                 <h4 style="color: rgb(245, 89, 89);">Shall we start??</h4>
@@ -37,7 +37,10 @@
                     <option value="6">WIll my current LoveLife succeed?</option>
                     <option value="7">When Will my current problems go away?</option>
                 </select> <br><br>
-                <input type="button" value="Ask" class="btn btn-outline-danger a5" onclick="fun4()">
+                <input type="button" value="Ask" class="btn btn-outline-danger a5" onclick="fun4()" style="z-index: 1000;">
+                <div id="hide">
+                    <img src="img/200-unscreen.gif" alt="" style="margin-top: -60px; z-index: 100;">
+                </div>
                 <p id="s4"></p>
             </div>
             <div id="s3" class="a5">Thank you!!</div>
